@@ -47,7 +47,7 @@ data-cleaning-visualization-project
 
 Bill distribution visualization:
 
-![Bill Distribution](visuals/bill_distribution.png)
+![Bill Distribution](outputs/bill_distribution.png)
 
 ## Key Insights
 - Most bills fall between a moderate range.
