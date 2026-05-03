@@ -18,6 +18,7 @@ This project focuses on cleaning and analyzing a raw dataset to extract useful i
 
 ## Project Structure
 
+```
 data-cleaning-visualization-project
 │
 ├── data
@@ -34,6 +35,7 @@ data-cleaning-visualization-project
 │   └── data_cleaning_report.pdf
 │
 └── README.md
+```
 
 ## Data Cleaning Steps
 1. Loaded the raw dataset
