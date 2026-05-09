@@ -56,5 +56,134 @@ Bill distribution visualization:
 - Some high-value bills appear as outliers.
 - Tip amount increases with total bill.
 
-## Author
-FRIGA SALMANA M
+# Predictive Modeling Using Machine Learning
+
+This project demonstrates a complete machine learning pipeline starting from **data cleaning** to **predictive modeling** and **model evaluation**.
+
+The objective is to build a machine learning model that can predict outcomes using supervised learning algorithms and evaluate the model performance.
+
+---
+
+# Project Structure
+
+```
+data_science_project/
+│
+├── data_cleaning/
+│   ├── data_cleaning.ipynb
+│   └── cleaned_dataset.csv
+│
+├── predictive_modeling/
+│   ├── predictive_model.ipynb
+│   └── outputs/
+│       ├── bill_distribution.png
+│       ├── confusion_matrix.png
+│       └── roc_curve.png
+│
+└── README.md
+```
+
+---
+
+# 1. Data Cleaning
+
+The **data_cleaning** folder contains the notebook used to preprocess and prepare the dataset for machine learning.
+
+## Steps Performed
+
+- Importing the dataset
+- Handling missing values
+- Removing duplicate records
+- Data formatting and type conversion
+- Feature selection
+- Saving the cleaned dataset
+
+## Output
+
+After cleaning, the processed dataset is saved as:
+
+```
+cleaned_dataset.csv
+```
+
+This cleaned dataset is used as input for predictive modeling.
+
+---
+
+# 2. Predictive Modeling
+
+The **predictive_modeling** folder contains the notebook responsible for building and evaluating machine learning models.
+
+## Algorithms Used
+
+- Linear Regression
+- Decision Tree
+- Random Forest
+
+## Workflow
+
+1. Load the cleaned dataset
+2. Split the dataset into training and testing sets
+3. Train machine learning models
+4. Evaluate model performance
+5. Visualize results
+
+---
+
+# Model Evaluation
+
+The models are evaluated using different performance metrics and visualizations.
+
+## Confusion Matrix
+
+The confusion matrix helps evaluate the classification performance of the model.
+
+Saved in:
+
+```
+outputs/confusion_matrix.png
+```
+
+## ROC Curve
+
+The ROC curve shows the ability of the model to distinguish between classes.
+
+Saved in:
+
+```
+outputs/roc_curve.png
+```
+
+## Data Visualization
+
+Example visualization showing data distribution.
+
+Saved in:
+
+```
+outputs/bill_distribution.png
+```
+
+---
+
+# Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+# Expected Outcome
+
+This project provides hands-on experience in:
+
+- Data preprocessing
+- Supervised machine learning
+- Model training and testing
+- Model evaluation techniques
+- Performance visualization using confusion matrices and ROC curves
