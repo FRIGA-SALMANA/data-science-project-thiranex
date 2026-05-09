@@ -138,7 +138,7 @@ The models are evaluated using different performance metrics and visualizations.
 
 The confusion matrix helps evaluate the classification performance of the model.
 
-<img width="766" height="458" alt="image" src="https://github.com/user-attachments/assets/29927eeb-c715-4fea-a865-6641410bae77" />
+<img src="predictive_modeling/outputs/confusion_matrix.png" width="500">
 
 ## ROC Curve
 
