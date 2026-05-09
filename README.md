@@ -138,11 +138,7 @@ The models are evaluated using different performance metrics and visualizations.
 
 The confusion matrix helps evaluate the classification performance of the model.
 
-Saved in:
-
-```
-outputs/confusion_matrix.png
-```
+<img width="766" height="458" alt="image" src="https://github.com/user-attachments/assets/29927eeb-c715-4fea-a865-6641410bae77" />
 
 ## ROC Curve
 
@@ -153,17 +149,6 @@ Saved in:
 ```
 outputs/roc_curve.png
 ```
-
-## Data Visualization
-
-Example visualization showing data distribution.
-
-Saved in:
-
-```
-outputs/bill_distribution.png
-```
-
 ---
 
 # Technologies Used
