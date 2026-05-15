@@ -169,3 +169,66 @@ This project provides hands-on experience in:
 - Model training and testing
 - Model evaluation techniques
 - Performance visualization using confusion matrices and ROC curves
+
+# 3. Exploratory Data Analysis (EDA) on Restaurant Tips Dataset
+
+## Project Overview
+This project performs Exploratory Data Analysis (EDA) on a restaurant tipping dataset to discover patterns, trends, and relationships between variables such as total bill, tip amount, customer gender, smoking status, day, time, and group size.
+
+The analysis uses statistical summaries and data visualizations to better understand customer tipping behavior.
+
+## Dataset Description
+The dataset contains information about restaurant customers and their tipping behavior.
+
+Features in the dataset:
+- total_bill – Total bill amount
+- tip – Tip amount given by the customer
+- sex – Gender of the customer
+- smoker – Whether the customer is a smoker or non-smoker
+- day – Day of the visit
+- time – Meal time (Lunch or Dinner)
+- size – Number of people in the group
+
+## Objectives
+- Perform exploratory data analysis on the dataset
+- Generate statistical summaries
+- Visualize data distributions and relationships
+- Identify correlations between variables
+- Discover factors influencing tip amounts
+
+## Tools and Libraries Used
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+## Analysis Steps
+1. Data Loading and Inspection
+2. Data Cleaning and Missing Value Check
+3. Statistical Summary of Data
+4. Univariate Analysis
+5. Bivariate Analysis
+6. Correlation Analysis
+7. Visualization of Patterns and Trends
+
+## Key Insights
+- Tip amount generally increases as the total bill increases.
+- Larger group sizes often result in higher total tips.
+- Tipping behavior may vary depending on day, time, and customer characteristics.
+- Visualizations help reveal patterns and relationships within the dataset.
+
+## Project Structure
+
+```
+EDA
+│
+├── Exploratory_Data_Analysis.ipynb
+├── cleaned_tips.csv
+└── README.md
+
+```
+
+## Conclusion
+This exploratory data analysis provides insights into tipping behavior in restaurants. Understanding these patterns helps identify key factors that influence customer tipping and demonstrates the importance of data visualization and statistical exploration in data analysis.
