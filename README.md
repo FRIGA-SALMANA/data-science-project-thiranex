@@ -232,3 +232,186 @@ EDA
 
 ## Conclusion
 This exploratory data analysis provides insights into tipping behavior in restaurants. Understanding these patterns helps identify key factors that influence customer tipping and demonstrates the importance of data visualization and statistical exploration in data analysis.
+
+
+# 4.Real world data project(Healthcare Data Analysis and Prediction)
+
+## Project Overview
+This project focuses on analyzing healthcare data to identify patterns related to patient health and predict potential health risks using machine learning techniques. The project demonstrates an end-to-end data science workflow including data preprocessing, exploratory data analysis (EDA), visualization, and predictive modeling.
+
+The goal is to apply data science skills to a real-world healthcare dataset and extract meaningful insights that could assist in healthcare decision-making.
+
+---
+
+## Dataset
+The dataset contains patient health-related information such as:
+
+- Age
+- Gender
+- Body Mass Index (BMI)
+- Blood Pressure
+- Cholesterol Level
+- Glucose Level
+- Smoking Status
+- Heart Rate
+
+These features are used to analyze health patterns and build a machine learning model to predict potential health risks.
+
+---
+
+## Project Objectives
+
+- Perform exploratory data analysis on healthcare data
+- Identify relationships between health indicators
+- Visualize important patterns and trends
+- Build a machine learning model for prediction
+- Evaluate the performance of the predictive model
+- Demonstrate a complete data science workflow
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+## Project Structure
+
+```
+Data_science(Real world)/
+│
+├── data/
+│ └── hospital_healthcare_dataset.csv
+│
+├── notebooks/
+│ └── Healthcare(Data Science).ipynb
+│
+├── reports/
+│ └── Health_Care.pdf
+│
+├── outputs/
+│ ├── visualizations/
+│ └── model_results/
+
+```
+
+### Folder Description
+
+**data/**  
+Contains the raw dataset used for analysis and model training.
+
+**notebooks/**  
+Contains Jupyter notebooks used for:
+- Data cleaning
+- Exploratory data analysis
+- Visualization
+- Machine learning model development
+
+**reports/**  
+Contains written summaries or reports explaining analysis results and findings.
+
+**outputs/**  
+Stores generated outputs such as:
+- Visualizations
+- Model evaluation results
+- Prediction outputs
+
+---
+
+## Project Workflow
+
+### 1. Data Loading
+The dataset is loaded using Pandas and inspected to understand its structure, data types, and initial statistics.
+
+### 2. Data Cleaning
+Data preprocessing steps include:
+
+- Handling missing values
+- Checking for duplicate records
+- Verifying data types
+- Preparing features for analysis
+
+### 3. Exploratory Data Analysis (EDA)
+EDA helps to understand the relationships between different health variables.
+
+Key analyses include:
+
+- Age distribution
+- BMI distribution
+- Blood pressure analysis
+- Cholesterol level patterns
+- Smoking habits
+- Feature correlation analysis
+
+---
+
+### 4. Data Visualization
+
+Several visualizations are created to explore patterns in the data:
+
+- Distribution plots
+- Histograms
+- Correlation heatmap
+- Feature comparison plots
+
+These visualizations help identify potential health risk indicators.
+
+---
+
+### 5. Feature Engineering
+
+- Encoding categorical variables
+- Selecting relevant features
+- Preparing data for machine learning
+
+---
+
+### 6. Model Building
+
+A **Logistic Regression model** is used to predict health risk based on patient features.
+
+Steps involved:
+
+- Train-test split
+- Model training
+- Prediction generation
+
+---
+
+### 7. Model Evaluation
+
+The model performance is evaluated using:
+
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+
+These metrics help measure the effectiveness of the predictive model.
+
+---
+
+## Key Insights
+
+- Age plays an important role in determining health risks.
+- Higher BMI levels may increase the chances of health complications.
+- Cholesterol and glucose levels are strong indicators of potential health issues.
+- Blood pressure patterns can help identify cardiovascular risks.
+
+---
+
+## Results
+
+The machine learning model successfully identifies patterns in the healthcare dataset and predicts health risk levels based on patient attributes. This demonstrates how data science techniques can support healthcare analysis and predictive decision-making.
+
+---
+
+
+
+
